@@ -1,0 +1,40 @@
+
+.titlebar {
+	margin: 0;
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	border: 1px solid gray;
+}
+.titlebar h1{
+	margin: 2% 0 2% 0;
+	padding: 0;
+}
+.operateBtn{
+	float: right;
+}
+.operateBtn button{
+	float: left;
+	-webkit-app-region: no-drag;
+	border: 1px solid gray;
+	color: white;
+	outline: none;
+	background-color: gray;
+}
+
+#closeWindow:hover{
+	background-color: red;
+}
+
+.settingArea{
+	margin-top: 1%;
+	padding: 2% 6%;
+}
+#btnReset{
+	margin-top: 6%;
+}
+#btnSave{
+	margin-top:3%;
+}

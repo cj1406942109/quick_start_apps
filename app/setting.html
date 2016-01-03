@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Setting</title>
+	<script type="text/javascript">window.$ = window.jQuery = require('jquery')</script>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/setting.css" rel="stylesheet" type="text/css"></head>
+
+<body>
+	<div class="titlebar">
+		<div class="operateBtn">
+			<button id="closeWindow">X</button>
+		</div>
+		<h1>Setting</h1>
+	</div>
+
+	<form class="settingArea">
+		<div class="form-group">
+			<label for="appName">Application Name</label>
+				<input type="text" class="form-control" id="appName" placeholder="appName">
+		</div>
+		<div class="form-group">
+			<label for="appFullPath">Application Full Path</label>
+				<input type="url" class="form-control" id="appFullPath" placeholder="appFullPath">
+		</div>
+		<div class="form-group">
+			<label for="fontColor">Font Color</label>
+				<input type="color" class="form-control" id="fontColor" placeholder="fontColor">
+		</div>
+		<div class="form-group">
+			<label for="btnColor1">Button Color</label>
+				<input type="color" class="form-control" id="btnColor1" placeholder="btnColor">
+		</div>
+		<div class="form-group">
+			<label for="btnColor2">Button Color Clicked</label>
+				<input type="color" class="form-control" id="btnColor2" placeholder="btnColorClicked">
+		</div>
+		<div class="form-group">
+			<div id="btnReset">
+				<button type="button" class="btn btn-danger btn-block">Reset</button>
+			</div>
+			<div id="btnSave">
+				<button type="submit" class="btn btn-success btn-block">Save</button>
+			</div>
+		</div>
+	</form>
+
+	<script src="js/setting.js"></script>
+</body>
+</html>

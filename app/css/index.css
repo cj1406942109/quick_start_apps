@@ -1,0 +1,65 @@
+button{
+	outline: none;
+}
+.titlebar {
+	margin: 0;
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	border: 1px solid gray;
+}
+.titlebar h1{
+	margin: 2% 0 2% 0;
+	padding: 0;
+}
+.operateBtn{
+	width: 100px;
+	float: right;
+}
+.operateBtn button{
+	float: left;
+	-webkit-app-region: no-drag;
+	margin-left: 20%;
+	border: 1px solid gray;
+	color: white;
+	outline: none;
+	background-color: gray;
+}
+#minimizeWindow:hover{
+	background-color: #666666;
+}
+#closeWindow:hover{
+	background-color: red;
+}
+
+#btnArea
+{
+    margin-top: 40px;
+    padding: 10px;
+	-webkit-app-region: no-drag;
+    border: 1px solid gray;
+}
+.row
+{
+    padding: 1%;
+}
+.col-sm-3
+{
+    padding: 2%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.addressBar {
+	-webkit-user-select: none;
+	-webkit-app-region: drag;
+	background-color: gray;
+	color:white;
+	text-align: center;
+	border: 1px solid gray;
+}
+.addressBar address{
+	margin: 0;
+	padding: 4px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "quick-start-app",
+  "version": "1.0.0",
+  "description": "A application to quick start other applications",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "dushang",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}
